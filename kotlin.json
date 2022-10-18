@@ -1,0 +1,17 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "github>nicolasfara/renovate-config"
+  ],
+  "packageRules": [
+    {
+      "description": "Trigger a patch update on Kotlin upgrades",
+      "matchPackageNames": [
+        "org.jetbrains.kotlin.jvm",
+        "org.jetbrains.kotlin.js",
+        "org.jetbrains.kotlin.multiplatform",
+      ],
+      "semanticCommitScope": "core-deps"
+    }
+  ]
+}
