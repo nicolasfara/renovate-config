@@ -1,6 +1,6 @@
 {
   "extends": [
-    "config:base", ":rebaseStalePrs", ":semanticCommits", ":semanticPrefixChore
+    "config:base", ":rebaseStalePrs", ":semanticCommits", ":semanticPrefixChore"
   ],
   "assignees": ["nicolasfara"],
   "automerge": true,
