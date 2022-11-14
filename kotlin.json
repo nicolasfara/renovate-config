@@ -10,8 +10,10 @@
         "org.jetbrains.kotlin.jvm",
         "org.jetbrains.kotlin.js",
         "org.jetbrains.kotlin.multiplatform",
+        "org.jetbrains.dokka",
       ],
-      "semanticCommitScope": "core-deps"
+      "semanticCommitScope": "core-deps",
+      "groupName": "kotlin deps"
     }
   ]
 }
